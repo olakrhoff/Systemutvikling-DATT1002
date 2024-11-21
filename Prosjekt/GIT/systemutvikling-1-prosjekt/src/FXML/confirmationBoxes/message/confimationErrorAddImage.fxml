@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="153.0" prefWidth="298.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ConfirmationBoxes.message.ConfirmationErrorAddImageBox">
+    <children>
+        <Button layoutX="191.0" layoutY="88.0" minWidth="50.0" mnemonicParsing="false" onAction="#generalButtonCancelClicked" text="OK" AnchorPane.bottomAnchor="11.0" AnchorPane.rightAnchor="14.0" />
+        <Text fx:id="confirmationAddImageTextLabel" layoutX="32.0" layoutY="49.0" lineSpacing="1.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Error: One or more images where not valid" textAlignment="CENTER" wrappingWidth="195.97216796875" />
+      <Text layoutX="68.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Could not add image" textAlignment="CENTER" />
+    </children>
+</AnchorPane>
